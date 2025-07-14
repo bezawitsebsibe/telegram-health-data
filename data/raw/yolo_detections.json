@@ -1,0 +1,26 @@
+[
+  {
+    "image": "image1.jpg",
+    "class": "pill",
+    "confidence": 0.87,
+    "timestamp": "2025-07-14T13:00:00"
+  },
+  {
+    "image": "image1.jpg",
+    "class": "bottle",
+    "confidence": 0.75,
+    "timestamp": "2025-07-14T13:00:00"
+  },
+  {
+    "image": "image2.jpg",
+    "class": "cream",
+    "confidence": 0.92,
+    "timestamp": "2025-07-14T13:05:00"
+  },
+  {
+    "image": "image3.jpg",
+    "class": "tablet",
+    "confidence": 0.81,
+    "timestamp": "2025-07-14T13:10:00"
+  }
+]
