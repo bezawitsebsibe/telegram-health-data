@@ -1,0 +1,27 @@
+
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypass
+      POSTGRES_DB: telegram_data
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+
+volumes:
+  db_data:
