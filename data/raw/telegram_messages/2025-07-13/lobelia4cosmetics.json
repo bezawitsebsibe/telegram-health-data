@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "message": "New product in stock: Vitamin C Serum",
+    "date": "2025-07-13T10:00:00",
+    "media": null
+  },
+  {
+    "id": 2,
+    "message": "Get 20% off on all creams today!",
+    "date": "2025-07-13T11:30:00",
+    "media": null
+  },
+  {
+    "id": 3,
+    "message": "Imported face masks now available",
+    "date": "2025-07-13T12:15:00",
+    "media": {
+      "type": "photo",
+      "file_name": "facemask.jpg"
+    }
+  }
+]

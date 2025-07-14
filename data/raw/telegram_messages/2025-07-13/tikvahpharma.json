@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "message": "Paracetamol 500mg now available in bulk!",
+    "date": "2025-07-13T09:45:00",
+    "media": null
+  },
+  {
+    "id": 2,
+    "message": "New delivery: Amoxicillin and Ciprofloxacin stock refreshed.",
+    "date": "2025-07-13T10:30:00",
+    "media": null
+  },
+  {
+    "id": 3,
+    "message": "Photo of available tablets posted below.",
+    "date": "2025-07-13T11:20:00",
+    "media": {
+      "type": "photo",
+      "file_name": "tablets.jpg"
+    }
+  }
+]
