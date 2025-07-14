@@ -8,3 +8,4 @@ uvicorn
 dagster
 dagster-webserver
 pydantic
+ultralytics
